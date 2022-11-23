@@ -1,1 +1,7 @@
-{}
+{
+  "package": {
+    "dependencies": {
+      "@strapi/plugin-documentation": "^4.5.2"
+    }
+  }
+}
