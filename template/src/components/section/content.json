@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_contents",
+  "info": {
+    "displayName": "Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "assets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.asset"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.testimonial"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_section_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "richtext",
+      "required": true
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "spotlight": {
+      "type": "boolean"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

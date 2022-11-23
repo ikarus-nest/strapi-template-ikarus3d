@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_section_assets",
+  "info": {
+    "displayName": "Asset",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "alternateText": {
+      "type": "string",
+      "required": true
+    },
+    "caption": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "spotlight": {
+      "type": "boolean"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
